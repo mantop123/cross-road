@@ -8,29 +8,29 @@ button {
   outline: none;
   cursor: pointer;
   border: none;
-  box-shadow: 3px 5px 0px 0px rgba(0,0,0,0,75);
+  box-shadow: 3px 5px 0px 0px rgba(0,0,0,0.75);
 }
 #counter {
   position: absolute;
-  top:20px;
-  right:20px;
+  top: 20px;
+  right: 20px;
 }
 #end {
-  position:absolute;
+  position: absolute;
   min-width:100%;
   min-height:100%;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   visibility: hidden;
 }
-#end button{
-  background-color:red;
+#end button {
+  background-color: red;
   padding: 20px 50px 20px 50px;
   font-family: inherit;
   font-size: inherit;
 }
-#controlls{
+#controlls {
   position:absolute;
   min-width:100%;
   min-height: 100%;
@@ -38,15 +38,15 @@ button {
   align-items: flex-end;
   justify-content: center;
 }
-#controlls div{
+#controlls div {
   display: grid;
   grid-template-colums: 50px 50px 50px;
   grid-template-rows: auto auto;
-  grid-colums-gap:10px;
-  grid-row-gap:10px;
-  margin-bottom:20px;
+  grid-colums-gap: 10px;
+  grid-row-gap: 10px;
+  margin-bottom: 20px;
 }
-#controlls button{
+#controlls button {
   width: 100%;
   background-color: white;
   border: 1px solid lightgray;
