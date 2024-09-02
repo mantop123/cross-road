@@ -20,7 +20,7 @@ button {
   min-width:100%;
   min-height:100%;
   display:flex;
-  align-item: center;
+  align-items: center;
   justify-content: center;
   visibility: hidden;
 }
@@ -35,7 +35,7 @@ button {
   min-width:100%;
   min-height: 100%;
   display: flex;
-  align-item: flex-end;
+  align-items: flex-end;
   justify-content: center;
 }
 #controlls div{
